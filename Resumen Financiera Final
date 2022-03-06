@@ -1,0 +1,153 @@
+Matematica: estudia caracteristicas y relaciones cuantificables en los elementos y permite obtener resultados para solucionar los problemas planteados. 
+Aritmetica: estudia las operaciones basicas
+Algebra elemental: incluye simbolos a la aritmetica para representar formulas
+Funciones: estudia las relaciones entre los numeros
+Calculo: es un procedimiento donde podemos conocer las consecuencias derivadas de unos datos previamente conocidos. Estudia las funciones. 
+Calculo financiero: utiliza una metodologia, conceptos, conocimientos y herramientas para el estudo del valor del dinero en el tiempo. 
+Ahorro: se asume un riesgo a cambio de obtener una compensacion por entregar dinero
+Atesoramiento: se resigna a todo tipo de incremento
+Ahorrar o atesorar supone: 
+- Una renta por la inversion;
+- Un costo de oportunidad por atesorar. 
+La renta es tangible, la perdida es un costo de oportunidad de haber ganado algo.
+La decision depende del riesgo y de la tasa de interes: a mayor riesgo menor ahorro, a mayor tasa mayor ahorro. 
+La ganancia minima y el costo minimo son iguales, ya que es el valor de la inversion de minimo riesgo. 
+Anatocismo: se suman los intereses generados al capital del cual se parte, los cuales pasan a generar nuevos intereses. Este crecimiento es exponencial, y llega a un limite maximo por la caracteristica de la funcion. 
+Liquidacion: es el momento en que se exige el compromiso, ya sea por pago o renovacion. 
+Variaciones: es la diferencia en una variable en dos momentos del tiempo. Esta puede ser: 
+- Absoluta: diferencia numerica
+- Relativa: cociente entre los valores, con respecto a uno de los dos momentos. Estos son: 
+	- Inicial: se expresa el crecimiento de la unidad de cuenta, o interes
+	- Final: se expresa la quita del valor final, o descuento. 
+Equivalencia financiera: es la igualdad de valor que tienen dos flujos de fondos a distintos tiempos o sumas, con una tasa de interes igual. 
+Factores que intervienen en el calculo financiero: 
+Variables: Dinero, tiempo y tasa.
+Dinero: tenemos tres componentes: 
+- Valor actual: es la cantidad en el momento que se toma.
+- Valor final: es la cantidad en un momento posterior al actual, que puede o no coincidir con el valor al fin de la operacion. 
+- Interes: es la diferencia entre el valor actual y el valor final. Se opera de dos maneras: 
+	- Interes compuesto: pactado por el organismo rector
+	- Interes continuo: es el analisis comparativo de las variaciones con la tasa de interes. 
+Tiempo: lapso en el que sucede la generacion o quita de interes. Se divide en: 
+- Periodo: es el lapso donde se generan intereses, desde el inicio al final de la operacion. 
+- Subperiodo: fraccion del tiempo en la que se divide el periodo. 
+Tasa de interes: relaciona dos magnitudes de dinero
+Sincronismo: Para cumplir con una obligacion se debe tener una fecha cierta y una suma determinada. La suma puede variar a lo largo del tiempo, y solo en la liquidacion el valor actual es igual al valor nominal, dado que el VA aumenta a lo largo del tiempo.
+Generacion de intereses: Se calculan sobre el valor de la obligacion en cada momento de su vigencia. 
+Condiciones para las operaciones: 
+- Sincronismo: el tiempo y tasa deben estar en la misma magnitud o medida. En caso de no ser asi, se debe ajustar para que coincidan, conociendose esto como compatibilizacion. 
+- Relacion entre tasa, tiempo y capitalzacion: Las operaciones se pueden pactar de cualquier manera con respecto al tiempo, tasa y condiciones de capitalizacion. Por lo tanto, para que ocurra se debe sincronizar el tiempo y la tasa para que coincidan con las condiciones pactadas. 
+- Sincronismo y compatibilizacion entre el tiempo y la tasa: se puede pactar una operacion donde el tiempo sea menor, igual o mayor que la magnitud en la cual esta expresada la tasa. Luego, correspondera sincronizarla. 
+- Compatibilizacion de la capitalizacion: se puede capitalizar en mas veces dentro del periodo, segun los subperiodos en los que se divida. 
+Capitalizaciones: es sumar al capital inicial los intereses ganados durante el subperiodo, para conformar un nuevo capital inicial que ganara intereses en el proximo subperiodo. El interes total es mayor que el resultado de aplicar la tasa nominal. Son los intereses de intereses. 
+Monto: interviene: 
+- Dinero: se parte de un capital, el cual genera intereses que se suma al capital inicial, y sobre este nuevo monto se generan intereses que se van adicionando, asi sucesivamente hasta llegar al final del periodo
+- Tiempo: tenemos un periodo y dentro de este tenemos distintos subperiodos como se haya pactado la capitalizacion. 
+- Tasa de interes: esta puede ser igual al lapso de capitalizaciones, mayor o menor. 
+Tasa de interes: es el cociente de la cantidad de dinero generado respecto al valor que tenia en el momento de la inversion. 
+Conformacion de la tasa de interes: 
+- Compensacion por ceder el uso del dinero: es el minimo que pide el inversor y el maximo que puede pagar el deudor
+- Inflacion: ante el incremento del nivel general de precios, se busca neutralizar estos efectos. Luego, el restante pasa a ser la tasa real de interes
+- Riesgo: es la alternativa de no recuperar el capital o la renta generada. 
+Tasa de interes periodica y subperiodica: 
+- Tasa nominal periodica: es la tasa convenida para todo el plazo
+- Tasa efectiva: es el rendimiento o costo real
+- Tasa proporcional: es la tasa nominal ajustada al subperiodo 
+- Tasa equivalente: es el rendimiento real ajustado al subperiodo. 
+Tasa real de interes: es la tasa de interes luego de calcular los efectos de la inflacion. Es la diferencia entre la tasa de interes y la inflacion frente a los efectos de la inflacion con respecto al capital. 
+Actualizaciones: nos permiten determinar el valor de una obligacion en cualquier momento del tiempo desde su generacion hasta su vencimiento. Teniendo un valor nominal, nos permite ir atras en el tiempo y conocer el valor actual de esa obligacion, utilizando descuentos en vez de interes. 
+Descuento: es la quita que se le hace a una operacion financiera. 
+Tasa de descuento: es el cociente entre el descuento y el valor nominal. Tambien es el efecto del interes con respecto a su incidencia frente a la unidad de capital en el tiempo. 
+Factor de capitalizacion: es el resultado de sumar a la unidad de capital una tasa de interes por cada vez que se capitaliza. 
+Factor de actualizacion: es el resultado de restar una tasa de descuento por cada vez que se genero intereses. 
+Equivalencia financiera: es el valor actual de una obligacion en distintos periodos de tiempo. La diferencia es el interes generado o faltante, segun corresponda. 
+Rentas: es una serie de pagos a lo largo del tiempo, pagaderas en cuotas en distintos subperiodos dentro del tiempo pactado. Luego, se puede calcular el valor actual de esa renta moviendose a lo largo del tiempo. El valor de la renta es la suma del valor actual de todos los pagos en un momento determinado. Se clasifican: 
+- Por el destino de los pagos: renta para cancelar una deuda, imposicion para conformar un capital. 
+- Por el importe de las cuotas: iguales o no, y si varian puede ser con una razon o no. 
+- Momento de pago: adelantado y vencido. 
+- Regimen de interes: interes simple o compuesto
+- Momento de valorizacion: inicial, final o epoca de valuacion. Luego, las rentas pueden ser diferidas, inmediatas o anticipadas. 
+- Por su duracion: temporaria, vitalicia, perpetua. 
+Valorizacion de rentas: lo que hay que hacer es determinar el valor al inicio de los pagos, y luego capitalizar o actualizar hasta la epoca de valuacion. 
+Rentas con cuotas en progresion geometrica: la cuota varia en un factor constante pago a pago. 
+Sistemas de amortizacion: 
+Sistemas de pago: se puede pagar al contado o en cuotas. 
+Generacion y pago de intereses: se genera sobre el saldo adeudado. 
+Imputacion del pago: Primero se pagan los intereses y luego el capital. Segun el sistema, una cuota puede comprender solo pago de intereses o pago de capital. 
+Momento del pago: no depende de la imputacion. Si es al inicio, es un pago adelantado. Si es al final, es un pago vencido. 
+Sistemas: 
+- Pago de interes adelantado: 
+	- Sistema aleman: el primer pago es solo intereses y el ultimo es solo capital. La cuota es variable porque es sobre saldos, el capital aumenta y el interes disminuye. 
+- Pago vencido: 
+	- Sistema frances: cuota constante, interes sobre saldos. 
+	- Sistema aleman con cuota decreciente: capital constante, interes sobre saldos. 
+	- Sistema americano: cuota constante, se pagan intereses al final de cada subperiodo y al finalizar se paga el total. Mientras tanto, se destina una suma de dinero a una tasa de interes que va generando un capital igual a la deuda. Se une la tasa activa que paga el deudor, y la tasa pasiva que cobra. 
+Cambio en las condiciones pactadas: Las condiciones pueden variar, cambiando: 
+- La cantidad de cuotas o vencimientos. 
+- Los valores nominales
+- Las fechas
+Ambas alternativas deben ser equivalentes en terminos financieros. 
+Para resolver: 
+- Analisis del problema: hay que determinar el valor de las obligaciones, y luego ver como se cancela esa suma. 
+- Procedimiento: se debe calcular el valor actual de las obligaciones, y luego de acordadas las fechas o cantidades a abonar, se debe calcular el valor nominal o las fechas del nuevo acuerdo de pago. 
+Interes directo: se determina el recargo de una suma a financiar y a devolver en mas de un pago o cuota. Se calcula de manera lineal. Este puede sumarse al capital o restarse. Si se suma, este es un interes cargado. Si se resta, es un interes deducido. Para calcular la cuota de cada uno, al interes cargado se suma capital e interes y se divide por el periodo; mientras que al interes deducido se divide capital por periodo, dado que los intereses ya se encuentran incluidos. 
+Bonos: es una forma de instrumentar un prestamo. El inversor le presta plata al deudor a cambio de ser devuelta esta con un interes determinado por el deudor. Esto genera un flujo de fondos. El deudor establece las condiciones, y luego el inversor decide si tomarlas o no. 
+Precio: es la suma de dinero que el inversor esta dispuesto a pagar por ese flujo de fondos. A mayor tasa de interes menor precio a pagar. 
+Valor de emision: para el deudor el precio es el valor de emision, que resulta de aplicar la tasa de interes establecida.
+Precio de mercado: es el valor actual del flujo de fondos. 
+Tasa de corte: suma maxima dispuesta a pagar por el capital. 
+Tasa de transferencia: es la tasa de rendimiento del flujo de fondos que se esta comprando. Es la tasa a la que se calcula el valor actual de los ingresos futuros. 
+Clasificacion: 
+- Tipo de desembolso inicial: a la par, bajo la par, sobre la par.
+- Plazo: temporario, vitalicio, perpetuo. 
+- Ente emisor: publico o privado
+- Garantias: sin garantias o con garantias
+- Variacion del pago: valores historicos o ajustados. 
+- Tasa de interes: constante o variable
+- Con opcion a rescate u opcion de venta. 
+- Amortizacion: a la par, bajo la par, sobre la par, perpetua. 
+- Forma de pago: integro capital e intereses, intereses periodicos y capital al final, quita de intereses, sobreprecio, pago parcial del total, pago total de una parte de los bonos. 
+Riesgo: 
+- Default
+- Inflacion
+- Liquidez
+- Rentabilidad
+- Reinversion
+- Paridad de moneda
+Valor actual neto: es la diferencia entre el valor actual de los ingresos y el valor actual de los egresos. Mayor a 0 = ganancia; menor a 0 = perdida. 
+Variaciones: el VAN variara si se postergan las erogaciones o si se adelantan los ingresos, y viceversa. 
+Tasa interna de retorno: es la tasa que aplicada al flujo de fondos da un VAN igual a 0
+Duracion: es el tiempo que debe transcurrir hasta que se recupere la inversion realizada. Es el resultado de una sumatoria de: 
+- Cociente entre la sumatoria del valor actual de un flujo de fondos y todos los valores actuales del mismo flujo de fondos
+- Cantidad de dias desde la operacion hasta que se materialice ese flujo. 
+Precio: para el inversor, es la suma dispuesta a pagar por su propiedad; para el emisor, es la suma que pretende recibir por asumir el compromiso de pago. Se compone de la suma del recupero del capital y la renta. La nuda propiedad es el valor actual de los ingresos para el recupero de la inversion. El usufructo es el valor actual de la renta. 
+Determinantes del precio: 
+- Tasa de interes
+- Tiempo desde la fecha de compra y los futuros ingresos
+- Componentes del precio: es la suma de la renta y la nuda propiedad.
+Valuacion de titulos: 
+- Bonos a perpetuidad: es el valor actual del flujo futuro de fondos. Es la cantidad de dinero que hoy se necesita para generar esa renta a una tasa de interes dada. 
+- A la par: valor de emision es la suma del valor actual de la renta y la nuda propiedad. 
+- Sobre la par: se cobra el capital, los intereses y una suma adicional. 
+- Bajo la par: se cobra el valor nominal menos una suma de dinero, ya sea por quita de capital o por no pago de la ultima renta. 
+Prima de emision: es la menor renta dispuesta a cobrar por tener el bono. Es el valor actual de la diferencia de intereses. 
+Valorizacion de activos extinguibles: 
+Amortizaciones: pueden ser: 
+- Proporcionales de cuota fija: 
+- Reduccion uniforme o acelerados
+- Con interes. 
+Proporcionales de cuota fija: la cuota se calcula sobre el valor amortizable, es lineal. Esta puede ser: 
+- Directo: La cuota es lineal, se calcula VA/Vida util
+- Servicio: la cuota es en funcion de las horas de servicio prestadas sobre las horas de vida util
+- Rendimiento: es en funcion de las unidades producidas sobre las unidades totales.
+Reduccion uniforme: La cuota es decreciente
+- Porcentaje sobre saldos: Es a una tasa fija valuada sobre los saldos restantes. 
+- Numeros digitos: se calcula sobre la vida util restante dividido la suma de los numeros digitos. 
+Con interes: se supone que se destina una cantidad de dinero para ahorrar, y que al final de su vida util el total ahorrado debe ser igual al total amortizado. Se cumple una doble funcion: 
+- Costo: existe un costo de produccion
+- Cuota de ahorro: se hace una imposicion para poder reemplazar el bien al fin de su vida util. 
+Puede ser que se sume el costo de oportunidad, o la suma dejada de ganar por el capital invertido. 
+- Fondo amortizante: se busca conformar una suma que sea igual a la amortizacion del bien.
+- Anualidades: el total a amortizar es el costo mas un cargo financiero. 
+Vida media de un activo: se relaciona la suma total del rubro con la suma de las cuotas de amortizacion de cada uno de esos bienes. 
+Valuacion de bienes extinguibles: Como los bienes extinguibles se agotan, al final de su vida util se supone que el inversor cuenta con un capital igual a la suma invertida mas una rentabilidad esperada. La cantidad de dinero a invertir es la suma de la renta y la cuota de imposicion. 
