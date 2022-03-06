@@ -18,6 +18,19 @@
     - Partición EFI
     - Partición FAT32 con montaje /dos
     - Boot desde Windows Mánager
+    - nada
+- 6° vez: instalación reemplazando Windows 11
+    - Swap: 2048 MB
+
+## Personalización
+**28/2/22**
+- Instalado OnlyOffice, neovim, git, onedrive, Spotify, Brave
+    - Agregado repo Spotify, Onedrive y Brave
+- Clonado OneDrive
+- Activado Night Mode automatico
+
+**1/3/22**
+
 
 
 
