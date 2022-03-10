@@ -6,7 +6,7 @@ Un **sistema** es un *conjunto de partes interrelacionadas* que cuentan con **me
 
 ## Modelos de desarrollo de sistemas
 
-![Modelo](./.images/Resumen ASA/Modelo.png)
+![Modelo](hhttps://github.com/Axtris/Uni/blob/main/Res%C3%BAmenes/images/Resumen%20ASA/Modelo.png)
 
 ## Premisas basicas de la metodologia
 
