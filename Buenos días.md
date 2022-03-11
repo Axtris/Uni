@@ -1,1 +1,0 @@
-Si hay una actividad que realmente relaja a uno es la escritura. No importa si esta es literaria o académica, o simplemente recreativa, el hecho de estar escribiendo lo que se viene a la mente es bastante útil y sedante para el cuerpo, a la vez que descomprime la mente de tanto estímulo externo. 
