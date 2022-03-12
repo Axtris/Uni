@@ -321,10 +321,30 @@ Se tratara de usar todas las herramientas disponibles, algunas sumamente tecnica
     - Nombre del o los registros
     - Descripcion narrada de un registro y su contenido
 
-- **Diagrama de Entidad/Relacion:** Presenta las relaciones existentes en una base de datos entre las tablas y como se establecen a traves de campos de dichas tablas. 
-- Diccionario
-- Definicion de registros
-- Herramientas para la logica de los procesos
+- **Diagrama de Entidad/Relacion:** Presenta las relaciones existentes en una base de datos entre las tablas y como se establecen a traves de campos de dichas tablas.
+- **Diccionario:** El diccionario de datos es un listado organizado de todos los datos pertinentes al sistema, con definiciones precisas y rigurosas para que tanto el usuario como el analista tengan un entendimiento comun de todas las entradas, salidas, componentes de almacenes y calculos intermedios. Sin un diccionario formal que defina el significado de los terminos, no se puede esperar precision. Este lo crea el analista durante el desarrollo del modelo del sistema, pero el usuario debe ser capaz de leerlo y entenderlo para poder verificar el modelo. Junto al diccionario de datos aparece el diccionario de procesos, que contiene las caracteristicas logicas de los sitios donde se almacenan los datos del sistema. Tambien identifica los procesos donde se emplean los datos y los sitios donde se necesita el acceso inmediato a la informacion; se desarrolla durante el analisis de flujo de datos y auxilia a los analistas que participan en la determinacion de los requerimientos del sistema, su contenido tambien se emplea durante el diseño.
+- **Definicion de registros:** Para cada uno de los archivos o tablas dentro del modulo, se debe realizar una descripcion detallada de cada uno de los campos que contendra:
+
+    - Nombre del registro
+    - Para cada campo:
+
+        - Orden de cada campo
+        - Nombre del campo
+        - Tipo de campo
+        - Posiciones que ocupa o longitud
+        - Cantidad de decimales si es numerico
+        - Descripcion de su contenido y restricciones
+
+    - Tipos de campos mas usados:
+
+        - Numericos
+        - Caracter o alfanumerico
+        - Alfabetico
+        - Fecha
+        - Logico o booleano
+        - Memo o texto
+
+- **Herramientas para la logica de los procesos:** 
 
 ## Documentacion
 
