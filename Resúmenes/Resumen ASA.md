@@ -344,7 +344,70 @@ Se tratara de usar todas las herramientas disponibles, algunas sumamente tecnica
         - Logico o booleano
         - Memo o texto
 
-- **Herramientas para la logica de los procesos:** 
+- **Herramientas para la logica de los procesos:** Existen herramientas que se pueden usar para definir claramente cada situacion.
+
+    - **Tablas de decision:** Permitira definir con toda precision las acciones a realizar asi como las condiciones que deben contemplarse. Se divide en una tabla de cuatro cuadrantes, en donde los cuadrantes izquierdos describen las definiciones de las condiciones y las acciones, y en los cuadrantes derechos estaran los valores de dichas condiciones y acciones. Admiten una cantidad limitada de condiciones y una cantidad grande de acciones. La solucion la definimos en el cuadrante inferior derecho.
+
+        - Primero, intentamos separar las condiciones de las acciones. Para esto, tenemos que hacer definiciones que se veran reflejadas en el diccionario para poder dar una solucion precisa, eliminando interpretaciones.
+        - Luego, plasmamos las condiciones, y determinamos el valor de las condiciones segun la cantidad de opciones de cada condicion y sus alternativas.
+        - Por ultimo, asignamos un valor a cada accion segun la combinacion de cada condicion.
+        - En caso de existir combinaciones que, al cambiar la ultima condicion, el valor de las acciones es igual, se considera una indiferencia o redundancia
+        - Ademas, se pueden presentar incongruencias en donde los valores de dos condiciones no tengan sentido en la vida real, pero se toman en cuenta en caso de que exista una varicion en la definicion. A fines practicos las incongruencias no expresan un problema, dado que son situaciones que no se van a dar en principio.
+
+          | Herramienta | Tablas de decision |
+          | -- | -- |
+          | Verificacion de la logica | Muy buena |
+          | Representa toda la estructura logica | Moderada: solo las acciones por condiciones |
+          | Facilidad de uso | Pobre |
+          | Verificacion por el usuario | Pobre |
+          | Conversion a programa | Muy buena |
+          | Cambios y modificaciones | Pobre |
+
+    - **Arboles de decision:** Es una herramienta que permite definir la logica mediante un grafico o un esquema de tablas. Utilizaremos el grafico porque se asimila a un mapa conceptual y resultara mas facil de entender cuando se le proponga a un usuario.
+
+    | Herramienta | Arboles de decision |
+    | -- | -- |
+    | Verificacion de la logica | Muy buena |
+    | Representa toda la estructura logica | Muy buena: solo las acciones por condiciones |
+    | Facilidad de uso | Muy buena |
+    | Verificacion por el usuario | Buena |
+    | Conversion a programa | Pobre |
+    | Cambios y modificaciones | Moderada |
+
+    - **Diagramas de flujo:** Permite definir la logica mediante un conjunto de graficos, usados tecnicamente por todo el ambito del desarrollo de sistemas. Se usan en los casos en los que el equipo debe acordar e interpretar algun aspecto del problema que tiene cierto grado de complejidad.
+
+        - Tiene una entrada al inicio, que indica que viene de un programa anterior.
+        - El rombo se usa para marcar la *condicion.*
+        - El rectangulo indica las *acciones* a realizar.
+        - Los valores de las condiciones se detallan en las uniones.
+        - Contrario al arbol de decision, el diagrama de flujo tiene que tener una salida, indicada con un cuadrado con forma de flecha
+
+    | Herramienta | Diagrama de flujo |
+    | -- | -- |
+    | Verificacion de la logica | Muy buena |
+    | Representa toda la estructura logica | Muy buena |
+    | Facilidad de uso | Pobre |
+    | Verificacion por el usuario | Buena |
+    | Conversion a programa | Muy buena |
+    | Cambios y modificaciones | Moderada |
+
+    - **Lenguaje estructurado:** Permite definir la logica mediante un lenguaje natural. Intenta narrar, en un lenguaje que mantiene algunas reglas de los lenguajes de computacion, y se aproxima al lenguaje comun del usuario para que pueda entenderlo.
+
+    Una de las estructuras tipicas es la que se forma de la siguente manera:
+
+    > si *condicion* entonces *accion*
+    >
+    >     sino *accion2*
+    >
+    > finsi
+
+    | Herramienta | Lenguaje estructurado |
+    | Verificacion de la logica | Buena |
+    | Representa toda la estructura logica | Muy buena |
+    | Facilidad de uso | Buena |
+    | Verificacion por el usuario | Pobre |
+    | Conversion a programa | Muy buena |
+    | Cambios y modificaciones | Buena |
 
 ## Documentacion
 
@@ -353,3 +416,253 @@ Diseños de entradas, archivos, salidas; tablas de decision; diagramas de flujo 
 ## Participantes
 
 Queda a cargo del analista de sistemas con alguna participacion del usuario y colaboracion de programadores.
+
+# Construccion
+
+Se trata de la programacion o codificacion en un lenguaje determinado. Se desarrollan los procedimientos y/o programas de computacion que satisfagan las especificaciones definidas en la fase anterior.
+
+## Objetivos
+
+Desarrollar y realizar la puesta a punto de los programas de computacion de acuerdo a lo especificado en la fase anterior, y elaborar las normas, instrucciones y formularios correspondientes a los procedimientos administrativos
+
+## Tareas
+
+- Desarrollo de logica de los programas
+- Codificar
+- Elaborar datos de prueba
+- Preparar datos, archivos y resultados esperados
+- Realizar prueba de sistema
+- Documentar, definir metodos de archivo
+- Elaborar normas de procedimiento
+- Diseñar y probar los formularios y registros.
+
+## Herramientas a utilizar
+
+- Tecnicas de programacion
+- Diagramacion logica
+- Tecnicas de documentacion
+- Tecnicas de diseño de formularios
+- Tecnicas de diseño, organizacion y estructuracion de archivos
+- Tecnicas de diseño de registros manuales
+- Normas de emision de informes
+
+## Documentacion
+
+- Programas en lenguaje
+- Diagrama de logica en detalle
+- Programa ejecutables
+- Documentacion de la prueba
+- Carpeta de formularios, registros e informes
+- Manual de normas y procedimientos
+- Manual de metodos
+
+Los participantes son los programadores, con alguna participacion reducida por parte de los usuarios. Es la etapa que demanda mayor numero de recursos humanos y tiempo de proyecto.
+
+# Seguridad en los sistemas de informacion
+
+Veremos la seguridad como un **conjunto de medidas** o **mecanismos** que tienen por objetivo **proteger los recursos o activos informaticos,** y conducen a la elaboracion de un **plan de seguridad.** Antes que nada, *es inconcebible en terminos de coste economico proteger, monitorizar, auditar y actualizar en tiempo real un sistema informatico.* No existe el 100% de seguridad en ningun orden.
+
+Dentro de las PyMEs, debemos desarrollar nuestro plan considerando que las amenazas han cumplido su accion y nos propondremos como objetivos:
+
+- Asegurar la continuidad de trabajo en todos los sistemas
+- Limitar las consecuencias de una amenaza que se concreta
+- Recuperar la capacidad de procesamiento en el menor tiempo y al menor costo.
+
+Por lo tanto, queremos estar en condiciones de *enfrentar las amenazas, reducir las debilidades, acrecentar las fortalezas, distinguir las oportunidades, y limitar las consecuencias.*
+
+## Seguridad FODA - Modulo 1
+
+Al ver la seguridad como un **conjunto de medidas,** tenemos que establecer dichos mecanismos en tres grandes grupos:
+
+- Preventivas
+- Detectivas
+- Correctivas
+
+Hay tres aspectos a **proteger** en los sistemas administrativos:
+
+- Confidencialidad: previene la divulgacion de informacion a personas o sistemas no autorizados. Requiere que la informacion sea accesible unicamente por las entidades autorizadas.
+- Integridad: busca mantener a los datos libres de modificaciones no autorizadas. Incluye a todos los recursos informaticos.
+- Disponibilidad: es la caracteristica, cualidad o condicion de la informacion de encontrarse a disposicion de quienes deben acceder a ella.
+
+Cuando hablamos de **recursos informaticos,** nos referimos a todo lo que hace que el sistema funcione:
+
+- Hardware: sistema fisico
+- Software: sistema logico o programas
+- Instalaciones: edificios y sus instalaciones, provision de energia, redes informaticas.
+- Informacion: es el activo mas importante de los sistemas de informacion. Son las bases de datos.
+- Personas: es el activo mas importante de la organizacion. Debe extremarse la seguridad para protegerlas.
+
+Para estudiar la seguridad en una organizacion, vamos a utilizar el analisis FODA que surga de dicho ente.
+
+- Primero, corresponde conocer las **amenazas** del ente, tanto no intencionales como intencionales. La diferencia entre una y otra es el ejercicio de la voluntad por parte de las personas, hecho que igual involucra un responsable, pero no un culpable.
+
+    - Dentro de las no intencionales, tenemos las amenazas de la naturaleza; las fallas del sistema; y los errores y omisiones provocados por las personas
+    - Las amenazas intencionales comprenden el perjuicio con motivacion economica; daño intencional sin motivacion economica; y la invasion a la privacidad.  
+
+Se pueden clasificar en internas o externas segun las comete; si son ataques pasivos o activos segun como se perciban; si se interrumpe un servicio, un recurso, se modifique un recurso o se introduzcan elementos extraños o malwares.
+
+- Luego, tenemos que saber que **debilidades** tiene la organizacion.
+
+    - Primero, tenemos el desconocimiento de los problemas de seguridad por parte de la organizacion
+    - Luego, tenemos la inadecuada designacion de responsables a cargo de la seguridad en informatica
+    - Podemos contemplar tambien la falta de un plan de seguridad
+    - Ademas, puede faltar una auditoria especifica para sistemas de informacion, o dicha auditoria es inadecuada
+    - Existe la falta de un plan frente a contingencias
+    - Una mala seleccion o capacitacion del personal
+    - Errores en el analisis y diseño
+    - Programacion y mantenimiento realizados sin normas precisas de trabajo
+    - Falta de control sobre los procesos y operacion de los sistemas
+    - Mala documentacion
+
+- En cuanto a los aspectos positivos, podemos empezar por las **fortalezas** de la organizacion. Se puede decir que son la contraparte de las debilidades descriptas anteriormente.
+- Por ultimo, tenemos que conocer las **oportunidades.** No se deben dejar pasar cursos de capacitacion, las nuevas tecnicas de procesamiento, novedades en equipamiento, instalaciones y nuevos elementos tecnicos, actualizaciones de sistemas operativos, lenguajes o software que mejoren la seguridad. Corresponde aprovechar todas las oportunidades que se nos presentan.
+
+El estudio FODA es una **foto** de la situacion de la organizacion en un momento especifico. Luego, correspondera actuar en funcion del analisis previamente hecho.
+
+Las consecuencias de que se concreten las amenazas nos impiden procesar normalmente. Esto genera que no se pueda procesar en el sistema, existan perdidas o modificaciones de archivos o registros, generen fallas o destruccion de equipos e instalaciones, y se altere la informacion o los resultados de los procesos. Otra consecuencia tiene que ver con la imagen de la organizacion, que ocurre cuando existen accesos indebidos, se usan los recursos informaticos indebidamente, se divulgue la informacion que maneja la organizacion, exista desconfianza interna y externa en la informacion obtenida. Esto genera una perdida de confianza en la organizacion, perjudicando su imagen.
+
+Para decidir sobre nuestra seguridad, debemos detectar las amenaza, determinar las debilidades y evaluar las fortalezas. En funcion a esto, tenemos que estimar la probabilidad de que una amenaza se concrete frente a nuestras debilidades y fortalezas. Luego de determinar la probabilidad, tenemos que distinguir las oportunidades que brinda el medio. Al saber esto, debemos ponderar las consecuencias y costos de cada amenaza, y determinar los costos de las medidas de seguridad. En base a esto, decidiremos sobre las medidas de seguridad apropiadas para nuestra organizacion.
+
+## Plan de seguridad - Modulo 2
+
+El plan de seguridad esta formado por un conjunto de medidas preventivas, detectivas y correctivas que tienen por objetivo proteger la integridad, confidencialidad y disponibilidad de los recursos o activos informaticos, tales como hardware, software, instalaciones, informacion y personas.
+
+Los requisitos indispensables del plan son:
+
+- Formulado por escrito
+- Politica clara de Seguridad
+- Transmitida a todos los niveles
+- Asignacion de recursos
+
+Se le debe asignar responsables al plan en todos los niveles, tanto en el area de sistemas, auditores, usuarios, seguridad general, y un consultor externo, segun si lo necesita dicha organizacion.
+
+Los contenidos minimos del plan son:
+
+- Objetivos generales
+- Politicas de la empresa
+- Educacion y capacitacion
+- Procedimientos y controles
+- Auditoria
+- Plan de contingencias
+
+Podemos hacer un esquema de amenazas con los siguientes requisitos:
+
+| Tipo de amenaza | Se detalla la amenaza que puede afectar al sistema |
+| -- | -- |
+| Descripcion de la amenaza | Que tipo de amenaza se trata |
+| Principales caracteristicas | Se detallan las caracteristicas de la amenaza |
+| Consecuencias si se concreta | Se especifica que ocurre si dicha amenaza se realiza |
+| Medidas preventivas | Medidas a realizar para evitar en la medida de lo posible la concrecion de la amenaza |
+| Medidas detectivas | Son acciones realizadas para detectar cuando una amenaza esta ocurriendo |
+| Medidas correctivas | Se especifica los hechos a realizar cuando la amenaza se concreto, para reducir el impacto de dicha accion |
+
+## Plan de contingencias - Modulo 3
+
+El plan de contingencias busca asegurar la continuidad de trabajo en todos los sistemas, limitando las consecuencias de una amenaza que se concreta, y recuperar la capacidad de procesamiento en el menor tiempo y al menor costo. Queremos recuperar los recursos informaticos protegiendo a las personas.
+
+Se establecen los roles de cada uno y que tiene que hacer cada cosa. Tiene que contemplar los llamados a los servicios de emergencia, a los responsables de seguridad y al personal capacitado. Luego, se debe programar la recuperacion de los sistemas operativos, los utilitarios, los aplicativos y los datos de la organizacion que tengan relacion con todo el sistema en general. Ademas, tenemos que programar la puesta en marcha del equipamiento, incluyendo las instalaciones, equipos, redes y perifericos.
+
+Para aplicarlo con exito, tenemos que tener pruebas del plan de contingencias, ensayandolo periodicamente y su concrecion para tener ensayado dicho plan. Se debe dictaminar al responsable de su elaboracion, que esté formulado por escrito, difundirse adecuadamente, verificarse su comprension, y revisar su validez, tanto de contenidos como de propositos.
+
+Si vemos las principales dificultades que se pueden presentar para implementarlo, podemos tener en cuenta:
+
+- Falta de directivas y politicas que gestionen la seguridad
+- Falta de un Sistema de Gestion de la Seguridad de la Informacion
+- El area de seguridad no tiene relacion con el resto de los departamentos:
+
+    - Parece que no agrega valor al negocio
+    - En la planificacion estrategica del negocio no se tiene en cuenta la estrategia que hay que llevar a cabo para la seguridad.
+
+## Recomendaciones especiales - Modulo 4
+
+- Principales medidas a considerar:
+
+    - Copias de seguridad:
+
+        - Segun su modalidad de copia:
+
+            - Total: se realiza una copia de todos los archivos, permitiendo tener una restauracion completa de cada vez que se hace.
+            - Diferencial: el sistema detecta que se cambio desde la ultima copia completa, y para su restauracion usa tanto la copia completa como la ultima copia diferencial realizada.  
+            - Incremental: a partir de la ultima copia completa, se hace una copia de lo que cambio en funcion del periodo anterior. Al hacer una restauracion, se va a necesitar la copia completa mas todas las copias incrementales realizadas a la fecha.
+
+        - Segun su forma de hacerlo:
+
+            - Manual
+            - Automatica
+
+        - Multiples soportes de destino:
+
+            - Fisicos
+            - Virtuales
+
+    - Proteccion ante accesos indebidos:
+
+        - Seguridad en internet: Los cambios que obligan a adoptar medidas para la proteccion de la informacion, la proliferacion del hacking, la creciente extension de las redes de las empresas, su integracion con internet y su uso masivo, hace necesario una vigilancia permanente del estado de la seguridad de los sistemas. Para reducir el riesgo, podemos aplicar ciertas medidas, tales como:
+
+            - Evitar accesos locales por parte de personas no deseadas
+            - Evitar la contaminacion del equipo por parte de elementos que puedan dañar o ralentizar el funcionamiento del mismo, y que se aprovechan fundamentalmente de los sistemas de almacenamiento portatiles y/o de los sistemas de comunicacion
+            - Evitar agujeros de seguridad mediante el mantenimiento actualizado del equipo informatico, su sistema operativo y los programas que utilicemos.
+
+        Exsiten riesgos de la navegacion, tales como el robo de identidad, virus, gusanos, troyanos, spyware, hacking, estafas online, spam, contenidos web inapropiados. Para protegernos de estos riesgos, hay que mantener actualizado el sistema operativo y el soft instalado, cambiar periodicamente las contraseñas de acceso al sistema, e instalar y mantener actualizado un programa antivirus. Como proteccion general, convendra tener configurado un firewall o cortafuegos, y un filtrado de informacion.
+
+        - Virus y otro software malicioso: La finalidad de un virus o malware responde a amenazas intencionales o no. En principio, no existe motivacion economica. Las recomendaciones realizadas son:
+
+            - Usar un antivirus
+            - Tener un firewall
+            - Mantener dichos programas actualizados
+            - No usar el usuario root salvo que sea necesario
+            - Usar software de fuente legal
+            - Desconectar puertos usb y grabadoras de cd
+            - Restriccion del uso en internet
+            - Restricciones en el uso del correo electronico
+            - Existencia de un plan de contingencias
+
+        - Claves de seguridad: Es el uso de contraseñas y factores de autenticacion para acceder a los diferentes servicios que necesitemos. Es la primera linea de defensa contra los ataques ciberneticos. Ademas de usar la contraseña como un factor de acceso, se pueden usar diferentes factores de autenticacion que permitan al usuario confirmar si el acceso realizado esta autorizado o no, y puede detectar si hubo intenciones de un acceso desconocido al sistema, mediantes confirmaciones por correo electronico, mensajes de texto, preguntas de verificacion de identidad, o un token de seguridad especifico. Se recomienda que las contraseñas sean distintas y dificiles de averiguar, se reestablezcan en forma peridoca, se usen diferentes caracteres, y sean de una longitud importante para que el costo de fuerza bruta sea mucho mayor para el atacante.
+
+# Prueba y conversion
+
+Se instalaran equipos, se acondicionaran locales, se tomaran cursos de capacitacion, se adiestrara personal, se convertiran archivos. Un punto importante sera controlar que el sistema funcione de acuerdo a las especificaciones. Una forma de conseguirlo es ejecutar en forma _paralela_ durante cierto tiempo los sistemas nuevo y viejo a efectos de notar diferencias. Se realizan las pruebas finales y las conversiones de archivos al nuevo sistema que permitan pasar a la fase siguiente.
+
+## Objetivos
+
+- Realizar las pruebas finales del sistema
+- Realizar la conversion de los archivos para el nuevo sistema.
+
+## Tareas
+
+- Planificar, preparar y realizar la prueba operativa del sistema \(prueba piloto)
+- Planificar la puesta en marcha y emitir las instrucciones de implantacion
+- Planificar y concretar la conversion de los archivos al nuevo sistema
+- Fijar los puntos de control para evaluar la puesta en marcha
+- Fijar los criterios de aprobacion para el usuario
+
+## Herramientas a usar
+
+- **Tecnicas de simulacion:** Se podria definir como un medio que experimenta con un modelo detallado de un sistema real para determinar como respondera el sistema a los cambios en su estructura o entorno, y realizar mejoras en caso de ser necesarias. Pretende imitar el comportamiento del sistema real, evolucionando como este, ademas de estudiar la evolucion del sistema en el tiempo. Se insertan varios *inputs* a un sistema y proporcionan un modelo para evaluar o volver a diseñar y medir o cuantificar factores tan importantes como la satisfaccion del cliente, el uso de recursos, el proceso de reingenieria y el tiempo invertido en todo ello.   
+- **Prueba de escritorio:** Esta prueba se realiza preparando los datos en el *escritorio,* para ello se utilizaran diversas herramientas que nos permitan crear un lote de informacion y obtener los resultados esperados que luego se cotejaran con los resultados obtenidos del sistema. La prueba tiene una asignacion de personal, en donde tiene que dirigirla un profesional que tenga conocimientos de administracion en general, del modulo en desarrollo, y de TICs en general; ademas de un desarrollador y un operador. En el inicio de la prueba, se deben usar exactamente el mismo lote de datos, y documentar paso a paso. Durante la prueba, se designa a un responsable general de la prueba, se cargan en el sistema los datos preparados, documentar los resultados, y enviar al desarrollador las solicitudes de cambios. Se finaliza la prueba cuando se encuentren depurados todos los cambios solicitados, y se emitira un informe final. Dicho informe es interno del equipo de desarrollo, donde se informara y documentara los resultados obtenidos en base a los requerimientos planteados. No se puede opinar sobre los objetivos propuestos, dado que no se hizo ninguna prueba en la organizacion.
+
+    **Ventajas:**
+
+    - Permite probar el funcionamiento del sistema en una situacion simulada.
+    - Sirve para comenzar a verificar el cumplimiento de los requeridos realizados por la empresa
+    - Usa un pequeño volumen de datos simulados pero contempla todas las situaciones imaginables
+    - Ayuda a depurar errores del sistema sin exponerlo en el ambito productivo real de la empresa.
+
+  **Desventajas:**
+
+    - Es una prueba de elevado costo, dado que se implica el uso de personal especializado
+    - El uso de datos simulados y en escaso volumen puede implicar que no se evalue el sistema con la exigencia de la empresa
+
+ Se trata de una prueba realizada en el ambito del desarrollo, que resulta muy util para verificar el cumplimiento del sistema en todas las situaciones imaginables dentro de los parametros del requerimiento.
+- **Prueba en paralelo:** 
+
+## Documentacion
+
+- Plan de prueba operativa
+- Resultado de la prueba operativa
+- Plan de conversion
+- Instrucciones de instalacion
+
+## Participantes
+
+Participan todos los involucrados tanto del area de sistemas como del area del usuario
